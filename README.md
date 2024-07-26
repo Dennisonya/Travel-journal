@@ -1,8 +1,5 @@
-# React + Vite
+# Travel Journal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my solo project on the scrimba react course, this project is centered on the use of props in react.
+I was able to achieve my goal of mapping through an array of object to populate my "Travel" component.
+(FYI: I havent actually gone to any of these places in the journal yet:/, i just used them for references😅)
