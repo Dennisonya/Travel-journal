@@ -1,0 +1,136 @@
+
+.journal {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  background-color: white;
+  overflow-y: scroll;
+  max-height: 90vh; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  gap: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A ;
+  width: auto;
+  height: 55px;
+}
+
+nav img{
+margin-right: 0 auto;
+width: 24px;
+height: 24px;
+}
+
+nav h1{
+  font-family: Inter;
+  font-size: 14.46px;
+  font-weight: 500;
+  line-height: 17.5px;
+  letter-spacing: -0.075em;
+  text-align: left;
+  color: black;
+  margin-left:3px; 
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 16px; 
+  padding: 16px;
+}
+
+.card{
+  width: 250px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: rgb(205, 203, 203);
+}
+
+.card img{
+  width: 100%;
+  border-radius: 10px;
+}
+.card-location{
+  display: flex;
+  align-content: center;
+  justify-items: space-between;
+}
+.card-location img {
+ align-self: center;
+ width: 7px;
+ height: 9px;
+ margin-right: 10px;
+}
+
+.card-location h3{
+  font-weight: 400;
+  color: black;
+  font-size:20px;
+  line-height: 12px;
+  margin-right: 10px;
+}
+
+.card-location a{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  color:#918E9B;
+  align-self: center;
+  text-decoration: underline;
+}
+
+.card h1{
+  font-size: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: black;
+  margin-top: 0;
+}
+
+.card h4{
+  margin-top: 0;
+  color:black;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 12px;
+}
+
+.card p{
+  font-weight: 400;
+  color:black;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+   
+  .journal{
+  width: 550px;
+  height: 704px;
+  top: -392px;
+  left: 545px;
+  gap: 0px;
+  opacity: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .journal{
+    width: 450px;
+    height:704px;
+    top: -392px;
+    left: 545px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+}
